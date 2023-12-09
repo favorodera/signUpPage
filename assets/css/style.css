@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    border: solid 1px;
+    border-color: red;
 
 }
 
@@ -32,7 +34,7 @@ body{
     font-family: 'Cabin', sans-serif;
     
 
-    >.introImageContainer{
+    >img{
         width: 77.33px;
         height: 80px;
 
@@ -131,8 +133,8 @@ body{
             }
 
             >select{
-                width: 255px;
-                height: 50px;
+                width: 238px;
+                height: 48px;
                 padding-left: 16px;
                 outline-color:hsla(174, 62%, 47%, 1);
                 outline-style: solid 1px;
@@ -166,8 +168,8 @@ body{
                 }
     
                 >select{
-                    width: 535px;
-                    height: 50px;
+                    width: 500px;
+                    height: 48px;
                     padding-left: 16px;
                     outline-color:hsla(174, 62%, 47%, 1);
                     outline-style: solid 1px;
@@ -197,8 +199,8 @@ body{
             margin-top: 6px;
 
             >#password{
-                width: 520px;
-                height: 50px;
+                width: 500px;
+                height: 48px;
                 padding-left: 16px;
                 outline-color:hsla(174, 62%, 47%, 1);
                 outline-style: solid 1px;
@@ -215,8 +217,8 @@ body{
         }
 
         >button{
-            width: 540px;
-            height: 50px;
+            width: 500px;
+            height: 48px;
             background-color: hsla(174, 62%, 47%, 1);
             color: hsla(0, 0%, 100%, 1);
             letter-spacing: 0.2px;
