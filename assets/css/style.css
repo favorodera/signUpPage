@@ -144,6 +144,7 @@ body{
                 border: solid 1px;
                 border-color: hsla(0, 0%, 94%, 1);
                 border-radius: 2px;
+                cursor: pointer;
             }
         }
 
@@ -152,6 +153,7 @@ body{
         flex-direction: column;
         gap: 10px;
         margin-top: 6px;
+        cursor: pointer;
     
     
                 >p{
@@ -179,6 +181,7 @@ body{
                     border: solid 1px;
                     border-color: hsla(0, 0%, 94%, 1);
                     border-radius: 2px;
+                    cursor: pointer;
                 }
         } 
 
@@ -227,248 +230,6 @@ body{
             border: solid 1px;
             border-color: hsla(174, 62%, 47%, 1);
             margin-top: 6px;
-        }
-
-        >p{
-            color: hsla(0, 0%, 0%, 1);
-            font-weight: 400;
-            line-height: 25px;
-            font-size: 14px;
-            font-style: normal;
-
-            >a{
-                color: hsla(174, 62%, 47%, 1);
-                text-decoration: underline;
-                line-height: 25px;
-                font-size: 14px;
-                font-style: normal;
-            }
-        }
-    }
-}
-
-
-/* Mobile Phones */
-@media only screen and (max-width: 600px) {
-  .container{
-    width: 375px;
-    height: 1294px;
-    background-color: hsla(170, 60%, 98%, 1);
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    
-    
-}
-
-.intro{
-    width: 327px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin-top: 30px;
-    margin-left: 24px;
-    font-family: 'Cabin', sans-serif;
-    
-
-    >.introImageContainer{
-        width: 77.33px;
-        height: 80px;
-
-    }
-
-    >.introText{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-
-
-        >.introTextHeader{
-            font-size: 40px;
-            line-height: 50px;
-            font-style: normal;
-            font-weight: 700;
-            letter-spacing: -0.8px;
-            color: hsla(174, 100%, 2%, 1);
-        }
-
-        >p{
-            font-size: 16px;
-            line-height: 25px;
-            font-style: normal;
-            color: hsla(0, 0%, 45%, 1);
-            font-weight: 400;
-            height: 50px;
-        
-        }
-    }
-}
-
-.form{
-    height: 870px;
-    width: 327px;
-    margin-top: 81px;
-    font-family: 'Sofia Sans', sans-serif;
-    border-radius: 6px;
-    background: hsla(0, 0%, 100%, 1);
-    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    >form{
-        display: flex;
-        gap: 24px;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-
-        >label{
-            display: flex;
-            flex-direction: column;
-            font-weight: 600;
-            line-height: normal;
-            letter-spacing: 0.1px;
-            font-size: 14px;
-            color: hsla(208, 96%, 10%, 1);
-            font-style: normal;
-            outline: none;
-            gap: 10px;
-
-
-            >input{
-                width: 238px;
-                height: 48px;
-                padding-left: 16px;
-                outline-color:hsla(174, 62%, 47%, 1);
-                outline-style: solid 1px;
-                font-size: 16px;
-                line-height: 20px;
-                font-weight: 400;
-                font-style: normal;
-                color: hsla(208, 96%, 10%, 1);
-                letter-spacing: 0.2px;
-                border: solid 1px;
-                border-color: hsla(0, 0%, 94%, 1);
-                border-radius: 2px;
-            }
-        }
-
-        >.gender{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-
-
-            >p{
-                font-weight: 600;
-                line-height: normal;
-                letter-spacing: 0.1px;
-                font-size: 14px;
-                color: hsla(208, 96%, 10%, 1);
-                font-style: normal;
-                outline: none;
-            }
-
-            >select{
-                width: 255px;
-                height: 50px;
-                padding-left: 16px;
-                outline-color:hsla(174, 62%, 47%, 1);
-                outline-style: solid 1px;
-                font-size: 16px;
-                line-height: 20px;
-                font-weight: 400;
-                font-style: normal;
-                color: hsla(208, 96%, 10%, 1);
-                letter-spacing: 0.2px;
-                border: solid 1px;
-                border-color: hsla(0, 0%, 94%, 1);
-                border-radius: 2px;
-            }
-        }
-
-        >.activityLevel{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 6px;
-    
-    
-                >p{
-                    font-weight: 600;
-                    line-height: normal;
-                    letter-spacing: 0.1px;
-                    font-size: 14px;
-                    color: hsla(208, 96%, 10%, 1);
-                    font-style: normal;
-                    outline: none;
-                }
-    
-                >select{
-                    width: 535px;
-                    height: 50px;
-                    padding-left: 16px;
-                    outline-color:hsla(174, 62%, 47%, 1);
-                    outline-style: solid 1px;
-                    font-size: 16px;
-                    line-height: 20px;
-                    font-weight: 400;
-                    font-style: normal;
-                    color: hsla(208, 96%, 10%, 1);
-                    letter-spacing: 0.2px;
-                    border: solid 1px;
-                    border-color: hsla(0, 0%, 94%, 1);
-                    border-radius: 2px;
-                }
-        } 
-
-        .password{
-            display: flex;
-            flex-direction: column;
-            font-weight: 600;
-            line-height: normal;
-            letter-spacing: 0.1px;
-            font-size: 14px;
-            color: hsla(208, 96%, 10%, 1);
-            font-style: normal;
-            outline: none;
-            gap: 10px;
-            margin-top: 6px;
-
-            >#password{
-                width: 520px;
-                height: 50px;
-                padding-left: 16px;
-                outline-color:hsla(174, 62%, 47%, 1);
-                outline-style: solid 1px;
-                font-size: 16px;
-                line-height: 20px;
-                font-weight: 400;
-                font-style: normal;
-                color: hsla(208, 96%, 10%, 1);
-                letter-spacing: 0.2px;
-                border: solid 1px;
-                border-color: hsla(0, 0%, 94%, 1);
-                border-radius: 2px;
-            }
-        }
-
-        >button{
-            width: 540px;
-            height: 50px;
-            background-color: hsla(174, 62%, 47%, 1);
-            color: hsla(0, 0%, 100%, 1);
-            letter-spacing: 0.2px;
-            line-height: normal;
-            font-weight: 600;
-            font-size: 16px;
-            font-style: normal;
-            color: hsla(0, 0%, 100%, 1);
-            border: solid 1px;
-            border-color: hsla(174, 62%, 47%, 1);
-            margin-top: 6px;
             cursor: pointer;
         }
 
@@ -489,5 +250,3 @@ body{
         }
     }
 }
-}
-
